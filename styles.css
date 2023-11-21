@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #363839;
+    padding: 10px;
+}
+
+.header-center {
+    color: #666;
+}
+.header-center h1 {
+    font-size: 40px;
+}
+@media (max-width: 922px) {
+    .header-center { display: none}
+}
+.header-left img {
+    width: 100px;
+    border-radius: 50%;
+}
+.header-right img { 
+    width: 100px;
+}
+@media (max-width: 386px) {
+    .header-left img {
+        width:74px; }
+    
+    .header-right img {
+            width: 74px;
+        }
+}
+
+#main-content {
+    text-align:center;
+    padding: 20px 20px 8px 20px;
+
+}
+#main-content h1 {
+    font-size: 24px;
+
+}
+.description {
+    font-size: 20px;
+    color: #666;
+}
+
+#video-container  {
+    text-align: center;
+    padding: 0px 20px;
+}
+.video-container h2 {
+    font-size: 20px;
+}
+.video-tittle {
+    margin-bottom: 40px;
+}
+.iframe-class {
+    width: 560px;
+    height: 315px;
+}
+@media (max-width: 600px){
+    .iframe-class {
+        width: 320px;
+        height: 180px ;
+    }
+}
+@media (max-width: 386px){
+    .iframe-class {
+        width: 240px;
+        height: 135px ;
+    }
+
+#satisfy-clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+ 
+}
+.satisfy-clients-tittle {
+margin-bottom: 50px;
+
+}
+.satisfy-clients {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.satisfy-clients img {
+    width: 240px;
+    height: 240px;
+    border-radius: 50px;
+    margin-right: 40px; 
+    object-fit: cover; 
+} 
+
+}
+.satisfy-clients p {
+    font-size: 30px;
+    color: #333;
+    max-width: 500px;
+    text-align: justify;
+}
+@media (max-width:870px){
+ .satisfy-clients img {
+    width: 140px;
+    height: 140px;
+    margin-right: 20px;
+ }
+    .satisfy-clients p {
+        font-size: 20px;
+    }
+ }
+ @media (max-width:386px) {
+    .satisfy-clients img {
+        width: 120px;
+        height: 120px;
+        margin-right: 14px;
+    }
+.satisfy-clients p {
+    font-size: 14px;
+}
+ }
+
+footer { 
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
